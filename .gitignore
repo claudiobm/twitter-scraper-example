@@ -1,0 +1,9 @@
+pkg/
+coverage/
+.jenkins-build
+*.swp
+*.swo
+/*.gem
+/.tool-versions
+/spec/reports
+/Gemfile.lock
