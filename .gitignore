@@ -7,3 +7,4 @@ coverage/
 /.tool-versions
 /spec/reports
 /Gemfile.lock
+.env.*

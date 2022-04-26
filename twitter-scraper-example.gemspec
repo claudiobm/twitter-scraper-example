@@ -22,8 +22,12 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
   gem.required_ruby_version = '>= 3.0.1'
 
+  gem.add_dependency('capybara', '~> 3.36.0')
   gem.add_dependency('nokogiri', '~> 1.13.4')
+  gem.add_dependency('selenium-webdriver', '~> 4.1.0')
 
+  gem.add_development_dependency 'dotenv', '~> 2.7.6'
+  gem.add_development_dependency 'pry', '~> 0.14.1'
   gem.add_development_dependency 'rspec', '~> 3.11.0'
   gem.add_development_dependency 'rubocop', '~> 1.27.0'
 end
